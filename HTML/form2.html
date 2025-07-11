@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="name_input">Full Name</label>
+        <input id="name_input" name="name" type="text">
+        <br>
+        <label for="email_input">Email</label>
+        <input id="email_input" name="email" type="email">
+        <br>
+        <label for="number_input">Phone number</label>
+        <input id="number_input" name="number" type="number">
+        <br>
+
+        <label for="">Gender</label>
+        <br>
+        <label for="male">Male</label>
+        <input id="male" name="Gender" type="radio" value="Male">
+        <label for="female">Female</label>
+        <input id="female" name="Gender" type="radio" value="Female">
+        <label for="other">Other</label>
+        <input id="other" name="Gender" type="radio" value="Other">
+        <br>
+        <h4>Skills</h4>
+        <label for="html">HTML</label>
+        <input id="html" name="skills" type="checkbox" value="HTML"><br>
+        <label for="css">CSS</label>
+        <input id="css" name="skills" type="checkbox" value="CSS"><br>
+        <label for="js">JavaScript</label>
+        <input id="js" name="skills" type="checkbox" value="JavaScript"><br>
+        <label for="react">React</label>        
+        <input id="react" name="skills" type="checkbox" value="React"><br> 
+
+        <label for="job_role">Job Role</label>
+        <select name="job role" id="job_role">
+            <option disabled value="">Select your Job Role</option>
+            <option value="Frontend_Developer">Frontend Developer</option>
+            <option value="Backend_Developer">Backend Developer</option>
+            <option value="Full_Stack_Developer">Full Stack Developer</option>
+        </select>
+        <br>
+        <label for="c_l">Cover Letter</label>
+        <textarea name="Cover_letter" id="c_l"></textarea><br>
+        <label for="resume">Resume</label>
+        <input id="resume" name="resume" type="file"><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
