@@ -1,0 +1,21 @@
+* {
+    margin: 0%;
+}
+
+h1 {
+    color: brown;
+}
+
+#wel {
+    color: aqua;
+}
+
+.lan {
+    color: blue;
+}
+
+.lan,
+#wel,
+h1 {
+    background-color: black;
+}
