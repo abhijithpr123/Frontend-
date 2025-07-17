@@ -7,6 +7,7 @@
     margin-left: 105;
     margin-right: 10%; */
     margin: 10% 50px 30% 49px;
+    padding: 10% 10% 10% 10%;
 }
 .sub{
     width: 80%;
@@ -18,4 +19,23 @@
     background-position: right; */
     background: yellow url('image.jpg');
     background-size: cover;
+    /* border-style:solid;
+    border-color: brown; */
+    /* border-top: 2px solid black; */
+    border: 5px solid brown;
+    border-radius: 20px;
+
+}
+p {
+    text-indent: 50px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    font-size:2rem;
+    font-family:cursive;
+    font-weight:bolder;
+    font-style:initial;
+}
+h1{
+    text-shadow: 5px 5px 5px red, 5px 5px 5px blue;
 }
