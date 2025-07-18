@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+}
+.main{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.sub1{
+    background-color: aquamarine;
+
+}
+.sub2{
+    background-color: rgb(188, 10, 10);
+
+}.sub3{
+    background-color: rgb(2, 18, 13);
+
+}.sub4{
+    background-color: rgb(192, 204, 200);
+
+}
+.main div{
+    width: 200px;
+    height: 100px;
+}
