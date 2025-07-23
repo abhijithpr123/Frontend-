@@ -1,6 +1,8 @@
+
 .main{
     background-color: antiquewhite;
     margin: auto;
+    width: 60%;
     display: grid;
     grid-template-rows: 100px 300px 110px 100px;
     grid-template-areas: 'web web nav'
@@ -41,17 +43,30 @@
 }
 .innav{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
 }
-.img{
-    background-image: "image.jpg";
+img{
+    width: 100%;
+    height: 100%;
 }
 a{
     text-decoration: none;
 }
-.inmsg{
-    text-align: justify;
-}   
 .inqt{
     text-align: center;
+}
+.btn1 p{
+    text-align: center;
+    padding-top: 20px;
+}
+.btn2 p{
+    text-align: center;
+    padding-top: 20px;
+}
+.inmsg h1{
+    text-align: center;
+}
+.inmsg1{
+    width: 80%;
+    margin: 10%;
 }
