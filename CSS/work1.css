@@ -1,8 +1,8 @@
 .main{
-    /* background-color: aqua; */
+    background-color: aqua;
     margin: 10% 10% 10% 10%;
     width: 80%;
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,6 +28,7 @@ img{
     height: 50%;
 }
 .info{
+    width: 100%;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 

@@ -1,0 +1,12 @@
+.main{
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 200px auto;
+    grid-template-rows: 200px 100px;
+    gap: 5px;
+}
+.sub{
+    background-color: rgb(255, 162, 0);
+    /* height: 100%; */
+}

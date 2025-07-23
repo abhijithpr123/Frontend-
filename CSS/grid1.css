@@ -1,0 +1,57 @@
+.main{
+    background-color: antiquewhite;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 100px 300px 110px 100px;
+    grid-template-areas: 'web web nav'
+                         'msg msg img'
+                         'qt qt img'
+                         'btn1 btn2 img';
+}
+.web{
+    background-color: aquamarine;
+    grid-area: web;
+}
+.nav{
+    background-color: blue;
+    grid-area: nav;
+}
+.msg{
+    background-color: blueviolet;
+    grid-area: msg;
+}
+.img{
+    background-color: brown;
+    grid-area: img;
+}
+.qt{
+    background-color: green;
+    grid-area: qt;
+}
+.btn1{
+    background-color: red;
+    grid-area: btn1;
+}
+.btn2{
+    background-color: rgb(244, 10, 158);
+    grid-area: btn2;
+}
+.inweb{
+    text-align: center;
+}
+.innav{
+    text-align: center;
+    padding-top: 30px;
+}
+.img{
+    background-image: "image.jpg";
+}
+a{
+    text-decoration: none;
+}
+.inmsg{
+    text-align: justify;
+}   
+.inqt{
+    text-align: center;
+}
