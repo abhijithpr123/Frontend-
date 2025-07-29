@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sub{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+        }
+        .main{
+            display: flex;
+            gap: 5px;
+        }
+        .part1, .part2{
+            display: flex;
+            gap: 5px;
+        }
+        @media (max-width: 423px) {
+            .main{
+                flex-direction: column;
+            }
+        }
+        @media (max-width: 224px) {
+            .part1, .part2{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="part1">
+            <div class="sub"></div>
+            <div class="sub"></div>
+        </div>
+        <div class="part2">
+            <div class="sub"></div>
+            <div class="sub"></div>
+        </div>
+    </div>
+</body>
+</html>

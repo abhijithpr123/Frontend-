@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="main w-screen flex justify-center items-center h-screen">
+
+        <div class="sub1 w-1/2 h-screen bg-[url(./bg-main-desktop.png)] bg-no-repeat">
+            <div class="cards relative w-full h-full flex items-center justify-center">
+                <div class="fcard absolute mb-60 ml-20 w-[330px] h-[200px]">
+                    <img src="bg-card-front.png" alt="" class="w-full h-full" />
+                    <div class="absolute top-5 left-5 text-white text-xs">
+                        <div class="flex justify-between items-center mb-10">
+                            <div class="w-7 h-7 bg-white rounded-full"></div>
+                            <div class="w-4 h-4 mr-60 border border-white rounded-full"></div>
+                        </div>
+                        <div class="text-lg mb-6">0000 0000 0000 0000</div>
+                        <div class="flex justify-between pr-4 text-xs">
+                            <div>
+                                <p>JANE APPLESEED</p>
+                            </div>
+                            <div class="">
+                                <p class="ml-41">00/00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="absolute mt-58 ml-50 w-[330px] h-[200px]">
+                    <img src="bg-card-back.png" alt="" class="w-full h-full absolute" />
+                    <div class="flex justify-center mt-22">
+                        <div class="relative ml-55  text-white text-sm">
+                            000
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sub2  w-1/2 h-screen flex justify-center items-center mr-20">
+            <div class="flex items-center justify-center">
+                <div class="bg-white p-8 rounded-lg-lg w-100">
+                    <div>
+                        <label class="text-xs font-bold text-purple-950">CARDHOLDER NAME</label>
+                        <input type="text" placeholder="e.g. Jane Appleseed"
+                            class="w-full border border-gray-400 rounded-lg px-3 py-2 text-sm my-2" />
+                    </div>
+
+                    <div>
+                        <label class="text-xs font-bold text-purple-950 mb-1">CARD NUMBER</label>
+                        <input type="text" placeholder="e.g. 1234 5678 9123 0000"
+                            class="w-full border border-gray-400 rounded-lg px-3 py-2 text-sm my-2" />
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="w-1/2">
+                            <label class="text-xs font-bold text-purple-950 mb-2">EXP. DATE (MM/YY)</label>
+                            <div class="flex gap-2 mb-6 mt-2">
+                                <input type="text" placeholder="MM"
+                                    class="w-1/2 border border-gray-400 rounded-lg px-2 py-2 text-sm" />
+                                <input type="text" placeholder="YY"
+                                    class="w-1/2 border border-gray-400 rounded-lg px-2 py-2 text-sm" />
+                            </div>
+                        </div>
+                        <div class="w-1/2">
+                            <label class="text-xs font-bold text-purple-950 mb-1">CVC</label>
+                            <input type="text" placeholder="e.g. 123"
+                                class="w-full border border-gray-400 rounded-lg px-2 py-2 text-sm mt-2" />
+                        </div>
+                    </div>
+
+                    <button class="w-full text-white py-2 bg-purple-950 rounded-lg">Confirm</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

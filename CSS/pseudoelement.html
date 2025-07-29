@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p1::before{
+            content: "Name- ";
+            background-color: blue;
+        }
+        .p2::after{
+            content: " -place";
+            background-color: aqua;
+        }
+        .p3::first-letter{
+            color: aqua;
+            font-size: 200%;
+        }
+        .p4::first-line{
+            color: red;
+        }
+        ::marker{
+            color: blue;
+        }
+        input::placeholder{
+            color: brown;
+        }
+        ::selection{
+            color: blueviolet;
+            background-color: aqua
+        }
+    </style>
+</head>
+<body>
+    <p class="p1">Abhijth pr</p>
+    <p class="p2">Aluva</p>
+    <p class="p3">My name is abhijith</p>
+    <p class="p3">My name is abhijith</p>
+    <p class="p3">My name is abhijith</p>
+    <p class="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam sint quod esse autem voluptatum tenetur quam? Voluptatibus facere reprehenderit, non, adipisci minus laborum vitae maiores minima ullam distinctio incidunt.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam sint quod esse autem voluptatum tenetur quam? Voluptatibus facere reprehenderit, non, adipisci minus laborum vitae maiores minima ullam distinctio incidunt.
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam sint quod esse autem voluptatum tenetur quam? Voluptatibus facere reprehenderit, non, adipisci minus laborum vitae maiores minima ullam distinctio incidunt.</p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<input type="text" name="fname" placeholder="Type your first name here..">
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="nav1">
+                <MArquee>CONDACT US</MArquee>
+            </div>
+            <div class="nav2">
+                <div class="logo1">
+                    <img src="logo (1).png" alt="">
+                </div>
+                <div class="navcontent">
+                    <a class="nc1" href="">SHOP NOW</a>
+                    <a class="nc1" href="">REVIEWS</a>
+                    <a class="nc1" href="">ABOUT US</a>
+                    <a class="nc1" href="">CONTACT US</a>
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="Product Code">
+                </div>
+                <div class="icon">
+                    <ul>
+                        <li><a class="icon1" href="https://www.facebook.com/ChempakamByReshma"><img src="facebook.png"
+                                    alt="" class="ic"></a></li>
+                        <li></li><a class="icon1" href="https://www.instagram.com/ChempakamByReshma"><img
+                                src="instagram.png" alt="" class="ic"></a></li>
+                        <li></li><a class="icon1" href=""><img src="love.png" alt="" class="ic"></a></li>
+                        <li></li><a class="icon1" href=""><img src="guarantee.png" alt="" class="ic"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+.nav1{
+    background-color: #FFE8DF;
+    padding: 7px;
+}
+.nav2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 100px;
+    background-color: #343a40;
+    justify-content: center;
+    gap: 5px;
+}
+.navcontent{
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.search{
+     padding-top: 30px;
+     padding-left: 10px;
+}
+.icon{
+     padding-top: 30px;
+}
+.nc1{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.icon1{
+    border-radius: 50%;
+    padding-left: 8px;
+    text-decoration: none;
+}
+.nc1{
+    padding-left: 8px;
+}
+ .ic{
+    width: 50px;
+    height: 50px;
+ }
+ input ::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+
+ }
+                        <li><a class="nc1" href="">SHOP NOW</a></li>
+                        <li><a class="nc1" href="">REVIEWS</a></li>
+                        <li><a class="nc1" href="">ABOUT US</a></li>
+                        <li><a class="nc1" href="">CONTACT US</a></li>
